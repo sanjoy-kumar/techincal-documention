@@ -1,6 +1,7 @@
 ## 1. Launch VM Instance (GCP)
 - Go to Google Cloud Console → Compute Engine → VM instances
 - Click Create Instance
+![VM Create](Images\img-1.png)
 
 **Basic Configuration:**
 - Name: (e.g., my-ubuntu-vm)
