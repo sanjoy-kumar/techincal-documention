@@ -1,40 +1,40 @@
 ## 1. Launch VM Instance (GCP)
-	- Go to Google Cloud Console → Compute Engine → VM instances
-	- Click Create Instance
+- Go to Google Cloud Console → Compute Engine → VM instances
+- Click Create Instance
 
 **Basic Configuration:**
-	- Name: (e.g., my-ubuntu-vm)
-	- Region / Zone: Choose nearest region (e.g., us-central1)
-	- Machine family: General-purpose
-	- Series: E2
-	- Machine type:
-		- e2-micro (free tier eligible)
-		- e2-small
-		- e2-medium
+- Name: (e.g., my-ubuntu-vm)
+- Region / Zone: Choose nearest region (e.g., us-central1)
+- Machine family: General-purpose
+- Series: E2
+- Machine type:
+	- e2-micro (free tier eligible)
+	- e2-small
+	- e2-medium
 
 **Boot Disk:** 
-	- Click Change
-	- Operating system: Ubuntu
-	- Version: Ubuntu 24.04 LTS
-	- Boot disk type: Balanced persistent disk
-	- Size: 10–20 GB (as needed)
+- Click Change
+- Operating system: Ubuntu
+- Version: Ubuntu 24.04 LTS
+- Boot disk type: Balanced persistent disk
+- Size: 10–20 GB (as needed)
 
 **Networking:**
-	- Network: default
-	- External IPv4:
-	- Ephemeral (default)
-	- Reserve a Static IP (recommended)
-	→ VPC Network → IP addresses → Reserve Static External IP
+- Network: default
+- External IPv4:
+- Ephemeral (default)
+- Reserve a Static IP (recommended)
+→ VPC Network → IP addresses → Reserve Static External IP
 
 **Firewall Rules (Allow):**
-✔️ Allow HTTP traffic
-✔️ Allow HTTPS traffic
+- ✔️ Allow HTTP traffic
+- ✔️ Allow HTTPS traffic
 
 (SSH is enabled by default)
 
 ## 2. Connect to VM
-	- Click SSH (Browser-based)
-	- Click Authorize
+- Click SSH (Browser-based)
+- Click Authorize
 
 ```
 mrittunjoy_k_das@exam-hub-nacc:~$ cd ..
