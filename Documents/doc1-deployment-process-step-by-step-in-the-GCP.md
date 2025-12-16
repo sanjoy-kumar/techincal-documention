@@ -19,6 +19,8 @@
 - Version: Ubuntu 24.04 LTS
 - Boot disk type: Balanced persistent disk
 - Size: 10–20 GB (as needed)
+![VM Create OS and Storage1](../Images/doc1-img4.png) 
+![VM Create OS and Storage2](../Images/doc1-img5.png)
 
 **Networking:**
 - Network: default
@@ -27,15 +29,23 @@
 - Reserve a Static IP (recommended)
 → VPC Network → IP addresses → Reserve Static External IP
 
+![VM Create](../Images/doc1-img6.png)
+
 **Firewall Rules (Allow):**
 - ✔️ Allow HTTP traffic
 - ✔️ Allow HTTPS traffic
+
+**Go to step-14 and open DNS server**
+![VM to DNS](../Images/doc1-img-7.png)
+
 
 (SSH is enabled by default)
 
 ## 2. Connect to VM
 - Click SSH (Browser-based)
 - Click Authorize
+
+![Open](../Images/doc1-img-8.png)
 
 ```
 mrittunjoy_k_das@exam-hub-nacc:~$ cd ..
@@ -221,6 +231,11 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 Before running the following command, you should add 2 A records(@ & www) in your DNS using the AWS EC2's public IP(34.10.216.62):
 I have used this "https://ap.www.namecheap.com/Domains/DomainControlPanel/mrittunjoykumardas.online/advancedns"
+
+![VM Create](../Images/doc1-img-9.png)
+
+![VM Create](../Images/doc1-img-10.png)
+
 
 ```bash
 sudo certbot --nginx -d mrittunjoykumardas.online -d www.mrittunjoykumardas.online
