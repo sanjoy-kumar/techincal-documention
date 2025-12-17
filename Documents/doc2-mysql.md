@@ -1,8 +1,8 @@
 # MySQL – Step-by-Step Complete Guide (Brief but All Aspects)
 ## STEP 1: What is MySQL?
-    - MySQL is a Relational Database Management System (RDBMS)
-    - Data is stored in tables
-    - Uses SQL (Structured Query Language)
+- MySQL is a Relational Database Management System (RDBMS)
+- Data is stored in tables
+- Uses SQL (Structured Query Language)
 
 ## STEP 2: Database Basics
 ### Create Database
@@ -172,6 +172,7 @@ CREATE INDEX idx_email ON employees(email);
 
 ## STEP 12: Constraints
 | Constraint | Purpose |
+| --------- | --------- |
 | PRIMARY KEY | Unique ID |
 | FOREIGN KEY | Relationship |
 | UNIQUE | No duplicate |
