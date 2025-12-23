@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" height="60pt" width="520pt" viewBox="45 77 528 66"><defs><style type="text/css">
+            @font-face {
+                font-family: 'noto_regular';
+                src: url('https://app.creately.com/d/assets/fonts/noto/noto-regular.woff') format('woff'),
+                     url('https://app.creately.com/d/assets/fonts/noto/noto-regular.woff2') format('woff2');
+                font-weight: normal;
+                font-style: normal;
+            }
+        p {
+            margin: 0;
+        }
+        </style></defs><defs>
+        <style>
+            span{ display: inline-block; }
+            
+        </style>
+        
+        </defs><g id="GCOc9LxfRu4"><g transform="translate(470 80)"><rect x="0" y="0" width="100" height="60" fill="rgb(242,253,250)" stroke="#55B5A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(504.984375, 101) rotate(0, 15.015625, 9)" width="30.03125" height="18"><text text-decoration="none" x="0.05781250000000071" fill="#2B5D59" font-size="10pt" font-family="noto_regular" y="14">HOD</text><text text-decoration="none" x="30.0734375" fill="#4b4b4b" font-size="10pt" font-family="noto_regular" y="14"/></g></g><g id="wPjQb6P5JlY"><g transform="translate(240 80)"><path d="M 120,30 L 60,60 L 0,30 L 60,0 L 120,30 L 120,30 Z" fill="rgb(251,242,248)" stroke="#DA5597" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(250, 101) rotate(0, 50, 9)" width="100" height="18"><text text-decoration="none" x="16.182812499999997" fill="#90264D" font-size="10pt" font-family="noto_regular" y="14">Headed </text><text text-decoration="none" x="68.4484375" fill="#90264D" font-size="10pt" font-family="noto_regular" y="14">By</text><text text-decoration="none" x="83.9171875" fill="#4b4b4b" font-size="10pt" font-family="noto_regular" y="14"/></g></g><g id="0yVpThkG6pR"><g transform="translate(50 80)"><rect x="0" y="0" width="100" height="60" fill="rgb(242,253,250)" stroke="#55B5A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g><g transform="translate(73.453125, 101) rotate(0, 26.546875, 9)" width="53.09375" height="18"><text text-decoration="none" x="0.05000000000000071" fill="#2B5D59" font-size="10pt" font-family="noto_regular" y="14">Surgeon</text><text text-decoration="none" x="53.14375" fill="#4b4b4b" font-size="10pt" font-family="noto_regular" y="14"/></g></g><g id="o0LkPAcnmMT"><g><path d="M 150,110 L 240,110" fill="none" stroke="#55B5A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 155,115.75 L 155,104.25 Z" fill="none" stroke="#55B5A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g><g id="YtzCg4qXBmC"><g><path d="M 470,110 L 360,110" fill="none" stroke="#55B5A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M 465,104.25 L 465,115.75 Z" fill="none" stroke="#55B5A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></g></svg>
