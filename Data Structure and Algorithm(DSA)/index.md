@@ -27,12 +27,13 @@ Learn:
 - Why O(n) is better than O(n²)
 
 Focus only on:
-O(1), O(log n), O(n), O(n log n), O(n²)
+- O(1), O(log n), O(n), O(n log n), O(n²)
 
 Example thinking:
-
+```text
 Loop inside loop → O(n²)
 Binary search → O(log n)
+```
 
 ### 🟢 Stage 2: Core Data Structures (Most Important)
 
@@ -92,7 +93,7 @@ Must-do problems:
 
 Time: 1–2 weeks
 
-Recursion First
+**Recursion First**
 
 Understand:
 - Base case
@@ -103,7 +104,7 @@ Simple examples:
 - Fibonacci
 - Tree traversal
 
-Trees
+**Trees**
 
 Learn:
 - Binary Tree
@@ -149,10 +150,10 @@ Must-do:
 ✅ Right Way
 
 For each problem:
-- Understand problem
-- Write brute force
-- Optimize step by step
-- Analyze time complexity
+1. Understand problem
+2. Write brute force
+3. Optimize step by step
+4. Analyze time complexity
 
 ## 5️⃣ Daily Study Plan (Busy Developer Friendly)
 
