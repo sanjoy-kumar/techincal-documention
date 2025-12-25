@@ -5,9 +5,10 @@ Data Structures and Algorithms (DSA) is a fundamental skill in computer science,
 - writing better code, and 
 - excelling in technical interviews. 
 
-- A **data structure** is a way of organizing and storing data efficiently, while an **algorithm** is a set of step-by-step instructions to solve a specific problem using that data.
+### What is Data Structure?
+**Answer:** A **data structure** is a way of organizing and storing data efficiently, while an **algorithm** is a set of step-by-step instructions to solve a specific problem using that data.
 
-- **Time & Space Complexity** is crucial for evaluating how well your code performs. Focus on **Big O notation** to measure an algorithm's time and memory usage as the input size grows. 
+**Time & Space Complexity** is crucial for evaluating how well your code performs. Focus on **Big O notation** to measure an algorithm's time and memory usage as the input size grows. 
 
 ### What is Time Complexity?
 **Answer:** Time complexity is a concept in computer science that describes the amount of time an algorithm takes to run, as a function of the length of its input.
