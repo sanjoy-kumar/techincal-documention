@@ -1,10 +1,10 @@
-## 1️⃣ What is an Array?
+### 1️⃣ What is an Array?
 
-**Answer:**An array is a collection of elements stored at continuous memory locations and accessed using an index.
+**Answer:** An array is a collection of elements stored at continuous memory locations and accessed using an index.
 
 👉 Think of it as a row of boxes, where each box holds one value.
 
-## 2️⃣ Why Do We Need Arrays?
+### 2️⃣ Why Do We Need Arrays?
 
 Without arrays:
 - You would need many variables (a1, a2, a3, a4…)
@@ -13,7 +13,7 @@ With arrays:
 - You store multiple values in one variable
 - Easy to access, update, loop, and process data
 
-## 3️⃣ Basic Structure of an Array
+### 3️⃣ Basic Structure of an Array
 
 Example (Numbers)
 arr = [10, 20, 30, 40, 50]
@@ -28,40 +28,59 @@ Array → │ 10  │ 20  │ 30  │ 40  │ 50  │
 
 📌 Index always starts from 0
 
-## 4️⃣ Accessing Elements in an Array
+### 4️⃣ Accessing Elements in an Array
+
 Syntax
+
+```python
 array[index]
+```
 
 Example
+
+```python
 arr = [10, 20, 30, 40]
 print(arr[0])   # 10
 print(arr[2])   # 30
+```
 
 Visual
+
 arr[2]
    ↓
 ┌─────┬─────┬─────┬─────┐
 │ 10  │ 20  │ 30  │ 40  │
 └─────┴─────┴─────┴─────┘
 
-5️⃣ Updating an Element
+### 5️⃣ Updating an Element
+
 Example
+
+```python
 arr = [10, 20, 30]
 arr[1] = 99
 print(arr)
+```
 
 Output
+```text
 [10, 99, 30]
+```
 
 Visual
+
 Before:  [10, 20, 30]
                  ↑
 After:   [10, 99, 30]
 
-6️⃣ Length of an Array
+### 6️⃣ Length of an Array
+
 Example
+
+```python
 arr = [5, 15, 25, 35]
 print(len(arr))
+```
 
 Output
 4
@@ -69,34 +88,45 @@ Output
 
 📌 Length = number of elements
 
-7️⃣ Traversing an Array (Looping)
+### 7️⃣ Traversing an Array (Looping)
+
 Example using for
+```python
 arr = [10, 20, 30]
 for x in arr:
     print(x)
+```
 
 Visual Flow
+
 10 → 20 → 30
 
-8️⃣ Inserting Elements
+### 8️⃣ Inserting Elements
 Add at the end
+```python
 arr = [1, 2, 3]
 arr.append(4)
+```
 
 Visual
+
 Before: [1, 2, 3]
 After:  [1, 2, 3, 4]
 
 Insert at a specific index
+```python
 arr.insert(1, 99)
+```
 
 Index:   0   1   2   3
 Before: [1,  2,  3,  4]
 After:  [1, 99,  2,  3,  4]
 
-9️⃣ Deleting Elements
+### 9️⃣ Deleting Elements
 Remove by value
+```python
 arr.remove(99)
+```
 
 Remove by index
 arr.pop(2)
