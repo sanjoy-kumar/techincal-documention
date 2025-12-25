@@ -74,7 +74,7 @@ Visual
 
 ```text
 Before:  [10, 20, 30]
-                 ↑
+              ↑
 After:   [10, 99, 30]
 ```
 
