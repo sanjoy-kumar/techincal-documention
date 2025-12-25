@@ -171,6 +171,7 @@ print("A" in "DATA")   # True
 
 ### 1️⃣1️⃣ Common String Methods
 | Method | Example | Result |
+| -------- | ---- | ------- |
 | upper() |	"hi".upper() | HI |
 | lower() |	"HI".lower() |	hi |
 | strip() |	" hi ".strip() | hi |
@@ -186,6 +187,7 @@ if "@" in email:
 
 ### 1️⃣3️⃣ Time Complexity (Basic)
 | Operation | Time |
+| -------- | ---- |
 | Access	| O(1) |
 | Traversal	| O(n) |
 | Concatenation | O(n) |
