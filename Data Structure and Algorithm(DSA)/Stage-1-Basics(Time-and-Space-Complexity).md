@@ -8,7 +8,9 @@ Data Structures and Algorithms (DSA) is a fundamental skill in computer science,
 
 ### What is Time Complexity?
 **Answer:** Time complexity is a concept in computer science that describes the amount of time an algorithm takes to run, as a function of the length of its input.
+
 *Common time complexities:*
+
 **O(1) - Constant Time:**
 Execution time is fixed, regardless of the input size (e.g., accessing an element in an array).
 
