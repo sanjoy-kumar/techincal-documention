@@ -47,11 +47,13 @@ print(arr[2])   # 30
 
 Visual
 
+```text
 arr[2]
    ↓
 ┌─────┬─────┬─────┬─────┐
 │ 10  │ 20  │ 30  │ 40  │
 └─────┴─────┴─────┴─────┘
+```
 
 ### 5️⃣ Updating an Element
 
@@ -70,9 +72,11 @@ Output
 
 Visual
 
+```text
 Before:  [10, 20, 30]
                  ↑
 After:   [10, 99, 30]
+```
 
 ### 6️⃣ Length of an Array
 
@@ -100,7 +104,9 @@ for x in arr:
 
 Visual Flow
 
+```text
 10 → 20 → 30
+```
 
 ### 8️⃣ Inserting Elements
 Add at the end
@@ -111,17 +117,21 @@ arr.append(4)
 
 Visual
 
+```text
 Before: [1, 2, 3]
 After:  [1, 2, 3, 4]
+```
 
 Insert at a specific index
 ```python
 arr.insert(1, 99)
 ```
 
+```text
 Index:   0   1   2   3
 Before: [1,  2,  3,  4]
 After:  [1, 99,  2,  3,  4]
+```
 
 ### 9️⃣ Deleting Elements
 Remove by value
@@ -130,42 +140,59 @@ arr.remove(99)
 ```
 
 Remove by index
+```python
 arr.pop(2)
+```
 
 Visual
+
+```text
 Before: [1, 99, 2, 3]
 Remove index 2 → value 2
 After:  [1, 99, 3]
+```
 
-🔟 Types of Arrays (Conceptually)
-1️⃣ One-Dimensional Array
+### 🔟 Types of Arrays (Conceptually)
+
+#### 1️⃣ One-Dimensional Array
+
 [10, 20, 30, 40]
 
-2️⃣ Two-Dimensional Array (Matrix)
+#### 2️⃣ Two-Dimensional Array (Matrix)
+```python
 matrix = [
     [1, 2],
     [3, 4]
 ]
+```
 
 Visual (2D Image)
+```text
 ┌───┬───┐
 │ 1 │ 2 │
 ├───┼───┤
 │ 3 │ 4 │
 └───┴───┘
+```
 
-1️⃣1️⃣ Real-World Example
+### 1️⃣1️⃣ Real-World Example
+
 Marks of Students
+```python
 marks = [78, 85, 90, 66]
+```
 
+```text
 Student 1 → 78
 Student 2 → 85
 Student 3 → 90
 Student 4 → 66
+```
 
-1️⃣2️⃣ Time Complexity (Basic Idea)
-Operation	Time
-Access	O(1)
-Search	O(n)
-Insert	O(n)
-Delete	O(n)
+### 1️⃣2️⃣ Time Complexity (Basic Idea)
+| Operation | Time |
+| -------- | ---- |
+| Access | 	O(1) |
+| Search | 	O(n) |
+| Insert |	O(n) |
+| Delete |	O(n) |
