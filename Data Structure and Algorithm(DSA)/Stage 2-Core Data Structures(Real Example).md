@@ -1,9 +1,10 @@
 ### 1️⃣ Traversal (Arrays & Strings)
-####🔹 What is Traversal?
+#### 🔹What is Traversal?
 
 Traversal means visiting each element/character one by one.
 
-🔸 Array Traversal
+#### 🔸Array Traversal
+
 Example
 ```python
 arr = [10, 20, 30, 40]
@@ -21,12 +22,14 @@ for x in arr:
 ```
 
 Index-based traversal
+
 ```python
 for i in range(len(arr)):
     print(f"Index {i} → Value {arr[i]}")
 ```
 
-🔸 String Traversal
+#### 🔸 String Traversal
+
 ```python
 s = "HELLO"
 
@@ -43,11 +46,12 @@ for ch in s:
 - Reverse a string/array
 
 ### 2️⃣ Two Pointers Technique
-🔹 What is Two Pointers?
+#### 🔹 What is Two Pointers?
 
 Use two indices (usually left & right) to process data efficiently.
 
 🔸 Example 1: Reverse an Array
+
 ```python
 arr = [1, 2, 3, 4, 5]
 
@@ -66,7 +70,9 @@ print(arr)
 ```text
 [5, 4, 3, 2, 1]
 ```
+
 🔸 Example 2: Check Palindrome (String)
+
 ```python
 s = "madam"
 
@@ -87,20 +93,23 @@ print(is_palindrome)
 ```text
 True
 ```
+
 💡 When to Use Two Pointers?
 
-✔ Sorted arrays
-✔ Reversal problems
-✔ Palindrome checking
-✔ Pair problems (sum = target)
+- ✔ Sorted arrays
+- ✔ Reversal problems
+- ✔ Palindrome checking
+- ✔ Pair problems (sum = target)
 
 ### 3️⃣ Sliding Window Technique
-🔹 What is Sliding Window?
+#### 🔹 What is Sliding Window?
 
 A window (subarray/substring) that moves across data to avoid nested loops.
 
-🔸 Fixed Size Sliding Window
+#### 🔸 Fixed Size Sliding Window
+
 Problem: Maximum sum of subarray of size k
+
 ```python
 arr = [2, 1, 5, 1, 3, 2]
 k = 3
@@ -121,8 +130,10 @@ print(max_sum)
 ```text
 9
 ```
-🔸 Variable Size Sliding Window (Strings)
+#### 🔸 Variable Size Sliding Window (Strings)
+
 Problem: Longest substring without repeating characters
+
 ```python
 s = "abcabcbb"
 char_set = set()
@@ -145,10 +156,10 @@ print(max_len)
 ```
 💡 When to Use Sliding Window?
 
-✔ Subarrays / substrings
-✔ Maximum / minimum range
-✔ Longest / shortest conditions
-✔ Optimizing O(n²) → O(n)
+- ✔ Subarrays / substrings
+- ✔ Maximum / minimum range
+- ✔ Longest / shortest conditions
+- ✔ Optimizing O(n²) → O(n)
 
 #### 🔥 Quick Comparison
 
@@ -160,5 +171,5 @@ print(max_len)
 
 #### 🎯 Interview Tip
 
-If the problem says subarray / substring, think Sliding Window
-If it says reverse / pair / palindrome, think Two Pointers
+- If the problem says subarray / substring, think Sliding Window
+- If it says reverse / pair / palindrome, think Two Pointers
